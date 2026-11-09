@@ -101,3 +101,18 @@ img {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+@keyframes flower-float {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate3d(-10px, -14px, 0) rotate(-1deg) scale(1.025);
+  }
+}
+
+.flower-float {
+  animation: flower-float 8s ease-in-out infinite;
+  transform-origin: center;
+  will-change: transform;
+}

@@ -75,7 +75,7 @@ export default function Home() {
 
         <div className="absolute left-[15%] top-[20%] h-48 w-48 rounded-full bg-blue-700/10 blur-[90px]" />
         <div className="absolute bottom-[10%] right-[15%] h-64 w-64 rounded-full bg-sky-400/10 blur-[100px]" />
-
+<div className="pointer-events-none absolute inset-0 z-[1] bg-[linear-gradient(to_right,#080b16_0%,transparent_22%,transparent_78%,#080b16_100%),linear-gradient(to_bottom,#080b16_0%,transparent_18%,transparent_82%,#080b16_100%)]" />
         <div className="relative z-10">
           <p className="mb-8 text-xs tracking-[0.5em] text-blue-300">
             INDEPENDENT MUSIC PRODUCER
