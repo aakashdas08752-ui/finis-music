@@ -99,7 +99,7 @@ export default function Home() {
           </a>
         </div>
 
-        <p className="absolute bottom-8 text-[10px] tracking-[0.4em] text-gray-600">
+        <p className="absolute bottom-8 z-10 text-[10px] tracking-[0.4em] text-gray-300">
           SCROLL TO DISCOVER
         </p>
       </section>
